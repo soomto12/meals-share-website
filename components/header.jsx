@@ -4,6 +4,7 @@ import Image from "next/image";
 import LogoImg from "@/assets/logo.png"
 import Classes from './main-header.module.css'
 import { usePathname } from "next/navigation";
+
 export default function Header() {
     const path = usePathname()
     return(
