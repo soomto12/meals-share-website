@@ -19,7 +19,7 @@ async function Meals(){
                 choose Your favourite recipe and cook it yourself. It is easy and fun
             </p>
             <p className={Classes.cta}> 
-              <Link href="/meal/share">
+              <Link href="/meals/share">
             Share Your favourite Recipe
               </Link>  
              

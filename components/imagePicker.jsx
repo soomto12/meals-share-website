@@ -31,7 +31,7 @@ fileReader.readAsDataURL(file);
         <div className={classes.controls}>
             <div className={classes.preview}>
                 {!PickedImage && <p> No image picked yet</p>}
-                {PickedImage && <Image src={PickedImage} fill/>}
+                {PickedImage && <Image src={PickedImage} fill alt="an image"/>}
             </div>
             <input 
             type="file"

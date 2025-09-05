@@ -11,7 +11,7 @@ export default function Header() {
         <header className={Classes.header}>
 
        <Link href="/" className={Classes.logo}> 
-       <Image src={LogoImg} priority />
+       <Image src={LogoImg} priority alt="an image" />
        NextLevel Food
         </Link>
  
